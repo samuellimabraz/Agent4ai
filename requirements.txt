@@ -1,0 +1,13 @@
+google_api_python_client==2.136.0
+google_auth_oauthlib==1.2.0
+langchain==0.2.6
+langchain_cohere==0.1.8
+langchain_community==0.2.6
+langchain_core==0.2.11
+langchain_mongodb==0.1.6
+langchain_text_splitters==0.2.2
+langgraph==0.1.5
+pydantic==2.8.2
+pymongo==4.8.0
+python-dotenv==1.0.1
+fastapi==0.111.0
