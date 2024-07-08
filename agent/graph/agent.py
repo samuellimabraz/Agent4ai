@@ -71,7 +71,7 @@ class Agent:
         self._create_graph(checkpointer)
 
     def clear_memory(self):
-        self.generate_node.generator.get_chat_history(self.user_id).clear()
+        self.get_chat_history(self.user_id).clear()
 
     def _create_graph(self, checkpointer):
         graph = StateGraph(GraphState)

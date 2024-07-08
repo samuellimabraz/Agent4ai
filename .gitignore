@@ -166,3 +166,6 @@ cython_debug/
 .env
 *.env
 *.log
+.venv
+venv
+*.venv

@@ -33,6 +33,7 @@ class AgentAPI:
         go = GoogleCalendarTool()
         info = go.get_user_info()
         pprint(info)
+        url_picture = info["picture"]
 
         self.agent = Agent(model, retriever, tool, go, memory, info["id"])
 
@@ -54,6 +55,7 @@ class AgentAPI:
 
     def clear(self):
         self.agent.clear_memory()
+
 
 if __name__ == "__main__":
     ag = AgentAPI()

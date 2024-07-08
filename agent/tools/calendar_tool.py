@@ -126,7 +126,7 @@ if __name__ == "__main__":
     # print(e)
     # print(type(e))
     # # Obter informações do usuário
-    # user_info = calendar_tool.get_user_info()
+    user_info = calendar_tool.get_user_info()
 
     # # Imprimir informações do usuário
-    # print(f"User ID: {user_info}")
+    print(f"User ID: {user_info}")
