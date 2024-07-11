@@ -1,0 +1,7 @@
+RETRIEVE = "retrieve"
+GRADE_DOCUMENTS = "grade_documents"
+GENERATE = "generate"
+WEBSEARCH = "websearch"
+RESEARCH_PLAN = "research_plan"
+ROUTER = "router"
+CALENDAR = "calendar"
